@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on COVID-19 mobility</title>
+    <link>https://covid19.compute.dtu.dk/</link>
+    <description>Recent content in Introduction on COVID-19 mobility</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://covid19.compute.dtu.dk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://covid19.compute.dtu.dk/forecast/metapop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/forecast/metapop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://covid19.compute.dtu.dk/visualizations/how_people_move_distance_traveled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/visualizations/how_people_move_distance_traveled/</guid>
+      <description>Distance traveled Visualization and data analysis by Ulf Aslak and Peter Møllgaard.  .vis { margin: 0 auto; height: 370px; } .line-baseline { stroke: black; stroke-width: 1.5; fill: none; stroke-dasharray: 10 5; opacity: 0.2; } .line-horizontal { stroke: #bdc3c7; stroke-width: 1; fill: none; stroke-dasharray: 10 5; } .line-crisis { fill: none; stroke: black; stroke-width: 2; stroke-opacity: 0.25; } .line-changeall { fill: none; stroke: black; stroke-width: 1; stroke-opacity: 0.7; } .line-tooltip { stroke: &#39;black&#39;; stroke-dasharray: 5 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://covid19.compute.dtu.dk/visualizations/how_people_move_movements_between_municipalities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/visualizations/how_people_move_movements_between_municipalities/</guid>
+      <description>Movements between municipalities Visualization and data analysis by Ulf Aslak and Peter Møllgaard. .vis { margin: 0 auto; height: 370px; } .line-baseline { stroke: black; stroke-width: 1.5; fill: none; stroke-dasharray: 10 5; opacity: 0.2; } .line-horizontal { stroke: #bdc3c7; stroke-width: 1; fill: none; stroke-dasharray: 10 5; } .line-crisis { fill: none; stroke: black; stroke-width: 2; stroke-opacity: 0.25; } .line-changeall { fill: none; stroke: black; stroke-width: 1; stroke-opacity: 0.7; } .line-tooltip { stroke: &#39;black&#39;; stroke-dasharray: 5 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://covid19.compute.dtu.dk/visualizations/how_people_move_movements_between_tiles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/visualizations/how_people_move_movements_between_tiles/</guid>
+      <description>Movements between city tiles Data analysis by Sebastian Andreasen and Oliver Brandt. .vis { margin: 0 auto; height: 370px; } .line-baseline { stroke: black; stroke-width: 1.5; fill: none; stroke-dasharray: 10 5; opacity: 0.2; } .line-horizontal { stroke: #bdc3c7; stroke-width: 1; fill: none; stroke-dasharray: 10 5; } .line-crisis { fill: none; stroke: black; stroke-width: 2; stroke-opacity: 0.25; } .line-changeall { fill: none; stroke: black; stroke-width: 1; stroke-opacity: 0.7; } .line-tooltip { stroke: &#39;black&#39;; stroke-dasharray: 5 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://covid19.compute.dtu.dk/visualizations/how_people_move_staying_home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/visualizations/how_people_move_staying_home/</guid>
+      <description>Staying home Visualization and data analysis by Ulf Aslak and Peter Møllgaard. .vis { margin: 0 auto; height: 370px; } .line-baseline { stroke: black; stroke-width: 1.5; fill: none; stroke-dasharray: 10 5; opacity: 0.2; } .line-horizontal { stroke: #bdc3c7; stroke-width: 1; fill: none; stroke-dasharray: 10 5; } .line-crisis { fill: none; stroke: black; stroke-width: 2; stroke-opacity: 0.25; } .line-changeall { fill: none; stroke: black; stroke-width: 1; stroke-opacity: 0.7; } .line-tooltip { stroke: &#39;black&#39;; stroke-dasharray: 5 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://covid19.compute.dtu.dk/visualizations/movement_adm_tile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/visualizations/movement_adm_tile/</guid>
+      <description>Movements between city tiles Data analysis by Sebastian Andreasen and Oliver Brandt. Pick a city - either Nairobi or Mombasa in Kenya or Lagos or Abuja in Nigeria to the right →
+.vis { margin: 0 auto; height: 370px; } .line-baseline { stroke: black; stroke-width: 1.5; fill: none; stroke-dasharray: 10 5; opacity: 0.2; } .line-horizontal { stroke: #bdc3c7; stroke-width: 1; fill: none; stroke-dasharray: 10 5; } .line-crisis { fill: none; stroke: black; stroke-width: 2; stroke-opacity: 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://covid19.compute.dtu.dk/visualizations/where_people_are_change_in_population_size/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/visualizations/where_people_are_change_in_population_size/</guid>
+      <description>Change in population sizes Visualization and data analysis by Ulf Aslak and Peter Møllgaard. Pick a country - either Kenya or Nigeria to the right →
+.vis { margin: 0 auto; height: 370px; } .line-baseline { stroke: black; stroke-width: 1.5; fill: none; stroke-dasharray: 10 5; opacity: 0.2; } .line-horizontal { stroke: #bdc3c7; stroke-width: 1; fill: none; stroke-dasharray: 10 5; } .line-crisis { fill: none; stroke: black; stroke-width: 2; stroke-opacity: 0.25; } .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://covid19.compute.dtu.dk/visualizations/where_people_are_going_out/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/visualizations/where_people_are_going_out/</guid>
+      <description>Going out during the day Visualization and data analysis by Ulf Aslak and Peter Møllgaard. Pick a country - either Kenya or Nigeria to the right →
+.vis { margin: 0 auto; height: 370px; } .line-baseline { stroke: black; stroke-width: 1.5; fill: none; stroke-dasharray: 10 5; opacity: 0.2; } .line-horizontal { stroke: #bdc3c7; stroke-width: 1; fill: none; stroke-dasharray: 10 5; } .line-crisis { fill: none; stroke: black; stroke-width: 2; stroke-opacity: 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://covid19.compute.dtu.dk/visualizations/where_people_are_landscape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/visualizations/where_people_are_landscape/</guid>
+      <description>Population landscape Visualization and data analysis by Ulf Aslak and Peter Møllgaard. The population density maps describe the number of people in tiles (square areas) throughout the country at different time-intervals.
+In the two figures below we plot tiles with a height that corresponds to their baseline—pre-lockdown—count (how many people are usually in this tile), and a color that corresponds to the percentage change from that baseline (how did the population in that tile change).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://covid19.compute.dtu.dk/visualizations/where_people_are_population_concentration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/visualizations/where_people_are_population_concentration/</guid>
+      <description>Population distribution Visualization and data analysis by Ulf Aslak and Peter Møllgaard. Pick a country - either Kenya or Nigeria to the right →
+.vis { margin: 0 auto; height: 370px; } .line-baseline { stroke: black; stroke-width: 1.5; fill: none; stroke-dasharray: 10 5; opacity: 0.2; } .line-horizontal { stroke: #bdc3c7; stroke-width: 1; fill: none; stroke-dasharray: 10 5; } .line-crisis { fill: none; stroke: black; stroke-width: 2; stroke-opacity: 0.25; } .line-changeall { fill: none; stroke: black; stroke-width: 1; stroke-opacity: 0.</description>
+    </item>
+    
+    <item>
+      <title>Data quality Kenya</title>
+      <link>https://covid19.compute.dtu.dk/posts/data_quality_kenya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/data_quality_kenya/</guid>
+      <description>Data quality Kenya Post by Sebastian Andreasen and Oliver Brandt . Published: June 30, 2020.  According to Worldometers Kenya has a population of more than 53.5 million people with a smartphone penetration of 21% according to Newzoo&amp;rsquo;s 2018 Global Mobile Market Report. The 2020 penetration is likely to be higher, but in general the low penetration is affecting the representativeness of the Kenyan population in the data, which should be kept in mind throughout the investigation.</description>
+    </item>
+    
+    <item>
+      <title>Data quality Nigeria</title>
+      <link>https://covid19.compute.dtu.dk/posts/data_quality_nigeria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/data_quality_nigeria/</guid>
+      <description>Data quality Nigeria Post by Sebastian Andreasen and Oliver Brandt . Published: June 30, 2020.  According to Worldometers nigeria has a population of more than 206 million people with a smartphone penetration of 13% according to Newzoo&amp;rsquo;s 2018 Global Mobile Market Report. The 2020 penetration is likely to be higher, but in general the low penetration is affecting the representativeness of the nigerian population in the data, which should be kept in mind throughout the investigation.</description>
+    </item>
+    
+    <item>
+      <title>Effects of curfew in Nairobi</title>
+      <link>https://covid19.compute.dtu.dk/posts/curfew/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/curfew/</guid>
+      <description>Effects of curfew in Nairobi Post by Sebastian Andreasen and Oliver Brandt Published: June 15, 2020.   The COVID-19 pandemic has impacted nearly every part of a typical Danish life. Among all the major disruptions, perhaps the biggest has been the impact the outbreak has had on working lives.
+At the peak of the Danish lock-down, most public employees (all except for those carrying out tasks of a critical nature) and an estimated one-third of people working in the private sector, were working from home.</description>
+    </item>
+    
+    <item>
+      <title>Going out/Staying home</title>
+      <link>https://covid19.compute.dtu.dk/posts/going_to_work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/going_to_work/</guid>
+      <description>Going out/Staying home Post by Jonas Lybker Juul. Published: May 18, 2020.   The COVID-19 pandemic has impacted nearly every part of a typical Danish life. Among all the major disruptions, perhaps the biggest has been the impact the outbreak has had on working lives.
+At the peak of the Danish lock-down, most public employees (all except for those carrying out tasks of a critical nature) and an estimated one-third of people working in the private sector, were working from home.</description>
+    </item>
+    
+    <item>
+      <title>How people move around in Kenya</title>
+      <link>https://covid19.compute.dtu.dk/posts/kenya_how_people_move/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/kenya_how_people_move/</guid>
+      <description>Movements in Kenya  Intuitively lockdowns and curfews should have an effect on how people move. In this post the idea is to investigate how people have moved within Nairobi and Mombasa in Kenya, as these are the cities where enough data has been collected.
+In order to get a better understanding of the actual movements, the particle city movement visualization can be investigated.
+By looking at this plot, we get an overview of how people move around during the lockdown.</description>
+    </item>
+    
+    <item>
+      <title>How people move around in Nigeria</title>
+      <link>https://covid19.compute.dtu.dk/posts/nigeria_how_people_move/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/nigeria_how_people_move/</guid>
+      <description>Movements in around in Nigeria  Intuitively lockdowns and curfews should have an effect on how people move. In this post the idea is to investigate how people have moved within Lagos and Abuja in Nigeria, as these are the cities where enough data has been collected.
+In order to get a better understanding of the actual movements, the particle city movement visualization can be investigated.
+By looking at this plot, we get an overview of how people move around during the lockdown.</description>
+    </item>
+    
+    <item>
+      <title>Movement Maps</title>
+      <link>https://covid19.compute.dtu.dk/data/movement_maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/data/movement_maps/</guid>
+      <description>Movement Maps For understanding How people move we use so-called &amp;ldquo;Movement Maps&amp;rdquo;, which are provided by the Facebook&amp;rsquo;s Data for Good initiative. Specifically, we use a combination of Movement maps at tile level and administrative region level (see Granularity and Further preprocessing).
+Description
+A Movement map seperates the country into different areas. It then reports the number of users that travel between areas, for three eight hour time windows each day.</description>
+    </item>
+    
+    <item>
+      <title>Population density</title>
+      <link>https://covid19.compute.dtu.dk/mobility/population/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/mobility/population/</guid>
+      <description>Population density during lockdown Report by Ulf Aslak, Laura Alessandretti, and Sune Lehmann. Updated: June, 4, 2020 9:41:13
+.vis { margin: 0 auto; height: 370px; } .line-baseline { stroke: black; stroke-width: 1.5; fill: none; stroke-dasharray: 10 5; opacity: 0.2; } .line-horizontal { stroke: #bdc3c7; stroke-width: 1; fill: none; stroke-dasharray: 10 5; } .line-crisis { fill: none; stroke: black; stroke-width: 2; stroke-opacity: 0.25; } .line-changeall { fill: none; stroke: black; stroke-width: 1; stroke-opacity: 0.</description>
+    </item>
+    
+    <item>
+      <title>Population Density Maps</title>
+      <link>https://covid19.compute.dtu.dk/data/population_density_maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/data/population_density_maps/</guid>
+      <description>Population Density Maps For understanding Where people are we use &amp;ldquo;Population Density Maps&amp;rdquo;, which are provided by the Facebook&amp;rsquo;s Data for Good initiative. Specifically, we use Population density maps at the tile level (see Granularity).
+Description
+A Population density map seperates the country into different areas, and for each it counts the number of users that spend most of their time there, for three eight hour time windows each day.</description>
+    </item>
+    
+    <item>
+      <title>Population landscape</title>
+      <link>https://covid19.compute.dtu.dk/posts/population_landscape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/population_landscape/</guid>
+      <description>Population landscape Post by Sune Lehmann. Visualization by Ulf Aslak. Published: May 14, 2020.  When you first get your hands on a new dataset, one of the key things to do is to look at the data. The human eye is expert at spotting patterns, systems, outliers. That&amp;rsquo;s one of the ways we form theories and hypotheses to explore with more complex statistical tools.
+Sometimes looking at the data is as easy as plotting x against y.</description>
+    </item>
+    
+    <item>
+      <title>Population redistribution</title>
+      <link>https://covid19.compute.dtu.dk/posts/spread_of_population/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/spread_of_population/</guid>
+      <description>Population re-distributed! Post by Sune Lehmann and Laura Alessandretti. Published: May 12, 2020. The lockdown presented a massive disruption to daily lives in Denmark.
+As discussed in the Population Landscape post, we observed a massive decrease of the number of people in the central districts of cities and airports. We can see this quite clearly in the screenshot from the Landscape visualization, which shows Copenhagen during Easter.
+ A view of Copenhagen during Easter.</description>
+    </item>
+    
+    <item>
+      <title>Timeline Kenya</title>
+      <link>https://covid19.compute.dtu.dk/posts/timeline_kenya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/timeline_kenya/</guid>
+      <description>Kenya  In Kenya it has been decided to both put the country in a complete lockdown including curfew during the night. This is despite the relatively low amount of new cases, but as it has been seen it other countries things can go wrong extremely fast.</description>
+    </item>
+    
+    <item>
+      <title>Timeline Nigeria</title>
+      <link>https://covid19.compute.dtu.dk/posts/timeline_nigeria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/timeline_nigeria/</guid>
+      <description>Nigeria In Nigeria it has been decided to both put the country in a complete lockdown including curfew during the night. This is despite the relatively low amount of new cases, but as it has been seen it other countries things can go wrong extremely fast.
+Nigeria differs from Kenya as every state has their own responsibility for handling the outbreaks, which means that there is less national control as it is seen in the US.</description>
+    </item>
+    
+    <item>
+      <title>Travel and mobility</title>
+      <link>https://covid19.compute.dtu.dk/mobility/mobility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/mobility/mobility/</guid>
+      <description>Traveling patterns and mobility Report by Ulf Aslak and Sune Lehmann. Updated: June, 4, 2020 9:41:13
+.vis { margin: 0 auto; height: 370px; } .line-baseline { stroke: black; stroke-width: 1.5; fill: none; stroke-dasharray: 10 5; opacity: 0.2; } .line-horizontal { stroke: #bdc3c7; stroke-width: 1; fill: none; stroke-dasharray: 10 5; } .line-crisis { fill: none; stroke: black; stroke-width: 2; stroke-opacity: 0.25; } .line-changeall { fill: none; stroke: black; stroke-width: 1; stroke-opacity: 0.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s happening in my city?</title>
+      <link>https://covid19.compute.dtu.dk/posts/change_in_population_sizes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/change_in_population_sizes/</guid>
+      <description>What&amp;rsquo;s happening in my city? Post by Laura Alessandretti. Published: May, 11, 2020. During the lockdown, people have moved across Denmark, fleeing from some areas and populating other parts of the country. By looking at the change in population sizes across cities, we can discover where the number of occupants has increased during the lock-down and vice versa, as well as how these changes evolved across March and April 2020. Here we discuss (some of) the conclusions that can be drawn by visualizing the data.</description>
+    </item>
+    
+    <item>
+      <title>Where are people?</title>
+      <link>https://covid19.compute.dtu.dk/posts/kenya_where_are_people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/kenya_where_are_people/</guid>
+      <description>Kenya - Where are people? In this post an investigation of where people are staying in Kenya can be found.
+It is interesting to investigate if people actually stay home during work hours. In the going out visualization an overview can be found. It is interesting that it can be seen how people start to move around more and more and in the end of May it is almost back at the normal level despite the fact that the lockdown is still in place.</description>
+    </item>
+    
+    <item>
+      <title>Where are people?</title>
+      <link>https://covid19.compute.dtu.dk/posts/nigeria_where_are_people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://covid19.compute.dtu.dk/posts/nigeria_where_are_people/</guid>
+      <description>Nigeria - Where are people? In this post an investigation of where people are staying in Nigeria can be found.
+It is interesting to investigate if people actually stay home during work hours. In the going out visualization an overview can be found. It is interesting that it can be seen how people start to move around more and more, but in the end of May it is still deviating quite a lot, which makes sense as the lockdown is still in place.</description>
+    </item>
+    
+  </channel>
+</rss>

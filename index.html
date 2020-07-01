@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.72.0" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Mobility in Kenya and Nigeria during COVID-19 lockdown Data analysis by Sebastian Andreasen and Oliver Brandt.  Updated: July, 1, 2020 23:6:40  Introduction: The entire continent of Africa is in great risk of fatal consequences due to the Covid19-pandemic and WHO has recently claimed that the worst is yet to come as the virus continues to spread throughout the world.
+It is well known that social distancing is one of the single most effective ways of preventing the spread of the virus, and for this reason most countries have put down restrictions on social gatherings, store capacities, school openings, traveling and such."><meta property="og:title" content="Introduction" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://covid19.compute.dtu.dk/" />
+
+<title>Introduction | COVID-19 mobility</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.8b34b0846c7c6544613b2301559d146e1ddebf7ee7068ccc53d2fd0e9b3701b9.css" integrity="sha256-izSwhGx8ZURhOyMBVZ0Ubh3ev37nBozMU9L9Dps3Abk=">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-167958784-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<link rel="alternate" type="application/rss+xml" href="https://covid19.compute.dtu.dk/index.xml" title="COVID-19 mobility" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><img src="/dtu.png" alt="Logo" /><span>COVID-19 mobility</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+<p><strong><a href="/"class=active>Main Page</a></strong></p>
+</li>
+<li>
+<p><strong>Posts</strong></p>
+<ul>
+<li>
+<p><strong>Kenya</strong>
+<a href="/posts/timeline_kenya/">Timeline</a></p>
+<ul>
+<li><a href="/posts/data_quality_kenya/"><em>Kenya</em>: <br>
+Data quality</a></li>
+<li><a href="/posts/kenya_where_are_people/"><em>Kenya</em>: <br>
+Where are people?</a></li>
+<li><a href="/posts/kenya_how_people_move/"><em>Kenya</em>: <br>
+How people move</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Nigeria</strong>
+<a href="/posts/timeline_nigeria/">Timeline</a></p>
+<ul>
+<li><a href="/posts/data_quality_nigeria/"><em>Nigeria</em>: <br>
+Data quality</a></li>
+<li><a href="/posts/nigeria_where_are_people/"><em>Nigeria</em>: <br>
+Where are people?</a></li>
+<li><a href="/posts/nigeria_how_people_move/"><em>Nigeria</em>: <br>
+How people move</a></li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p><strong>Visualizations</strong></p>
+<ul>
+<li><em>Where people are</em>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="/visualizations/where_people_are_going_out/">Going out</a></li>
+<li><a href="/visualizations/where_people_are_change_in_population_size/">Change in population size</a></li>
+<li><a href="/visualizations/where_people_are_population_concentration/">Population distribution</a></li>
+</ul>
+</li>
+<li><em>How people move</em>
+<ul>
+<li><a href="/visualizations/movement_adm_tile/"><strong>New</strong> Particle city movement</a></li>
+<li><a href="/visualizations/how_people_move_movements_between_tiles/"><strong>New</strong> Tile city movement</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="/visualizations/how_people_move_staying_home/">Staying home</a></li>
+<li><a href="/visualizations/how_people_move_movements_between_municipalities/">Movements between municipalities</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Data</strong></p>
+<ul>
+<li><a href="/data/population_density_maps/">Population Density Maps</a></li>
+<li><a href="/data/movement_maps/">Movement Maps</a>
+<!-- raw HTML omitted --></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Introduction</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="mobility-in-kenya-and-nigeria-during-covid-19-lockdown"><strong>Mobility in Kenya and Nigeria during COVID-19 lockdown</strong></h1>
+<span style="font-size:14px"><em>Data analysis by <a href="mailto:s153522@student.dtu.dk">Sebastian Andreasen</a> and <a href="mailto:ob95@me.com">Oliver Brandt</a>.</em></span>
+<blockquote>
+<span style="font-size:14px"><em>Updated: July, 1, 2020 23:6:40</em></span>
+</blockquote>
+<h3 id="introduction"><strong>Introduction:</strong></h3>
+<p>The entire continent of Africa is in great risk of fatal consequences due to the Covid19-pandemic and WHO has recently claimed that the worst is yet to come as the virus continues to spread throughout the world.</p>
+<p>It is well known that social distancing is one of the single most effective ways of preventing the spread of the virus, and for this reason most countries have put down restrictions on social gatherings, store capacities, school openings, traveling and such. Kenya and Nigeria is no different and both countries have been in complete lockdown since the end of March 2020.</p>
+<p>Due to a lot of focus on Western countries and their responses to the pandemic, it has been decided to focus only on Kenya and Nigeria in order to get a better understanding of how the population respond to the lockdown.</p>
+<p>The purpose of the following visualizations is to investigate:</p>
+<p><em>In what ways does the corona lockdown impact people&rsquo;s travel patterns and where they spend their time in Kenya and Nigeria?</em></p>
+<p><strong>Example of movements in Nigeria</strong>
+<img src="/movements_nigeria_plot.png" alt="img" /></p>
+<h3 id="research-questions"><strong>Research questions:</strong></h3>
+<p>On this site, we share the our insights into the mobility of the population in both Kenya and Nigeria. In a broad sense, we address the <strong>overall questions</strong>:</p>
+<ul>
+<li><em>Where are people spending time during the lockdown?</em></li>
+<li><em>How do people move around inside the country during the lockdown?</em></li>
+<li><em>How do these behaviors change over time and in response to decisions of reopening parts of the country?</em></li>
+</ul>
+<h3 id="posts-and-visualizations"><strong>Posts and Visualizations:</strong></h3>
+<p>On this page two kinds of views can be found. One is data visualizations and the other one is blog posts:</p>
+<ul>
+<li><em>Data visualizations</em> - Interactive.</li>
+<li><em>Posts</em> - Reflections on the insights from the data.</li>
+</ul>
+<p>Posts and Visualizations can be found in the panel on the left.</p>
+<h3 id="data"><strong>Data:</strong></h3>
+<p>We use large-scale behavioral data provided by Facebook&rsquo;s <a href="https://dataforgood.fb.com">Data For Good</a> initiative for our analysis. The data is highly aggregated and contains no information about the behavior of individuals. In this case the dataset is static and will not be updated.</p>
+<p>The data contains information from Kenya and Nigeria over the period of 6th of April to the 25th of May. It is important to bear in mind that the data relies on the use of smartphones and mobile signal, which is scarce in both countries.</p>
+<p>A detailed descriptions of the datasets is provided in the panel on the left, where a blog post on the overall quality also can be found.</p>
+<h3 id="students"><strong>Students</strong></h3>
+<ul>
+<li><a href="s153522@student.dtu.dk">Sebastian Andreasen</a></li>
+<li><a href="s154131@student.dtu.dk">Oliver Brandt</a></li>
+</ul>
+<h3 id="supervisors"><strong>Supervisors</strong></h3>
+<ul>
+<li><a href="https://ulfaslak.com">Ulf Aslak</a>, postdoc (Facebook data, website, figures, text)</li>
+<li><a href="https://orbit.dtu.dk/en/persons/peter-edsberg-m%c3%b8llgaard">Peter Edsberg Møllgaard</a>, research assistant (Facebook data, website, figures)</li>
+<li><a href="https://sunelehmann.com/">Sune Lehmann</a>, professor (PI, text)</li>
+</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Movements in around in Nigeria  Intuitively lockdowns and curfews should have an effect on how people move. In this post the idea is to investigate how people have moved within Lagos and Abuja in Nigeria, as these are the cities where enough data has been collected.
+In order to get a better understanding of the actual movements, the particle city movement visualization can be investigated.
+By looking at this plot, we get an overview of how people move around during the lockdown."><meta property="og:title" content="How people move around in Nigeria" />
+<meta property="og:description" content="Movements in around in Nigeria  Intuitively lockdowns and curfews should have an effect on how people move. In this post the idea is to investigate how people have moved within Lagos and Abuja in Nigeria, as these are the cities where enough data has been collected.
+In order to get a better understanding of the actual movements, the particle city movement visualization can be investigated.
+By looking at this plot, we get an overview of how people move around during the lockdown." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://covid19.compute.dtu.dk/posts/nigeria_how_people_move/" />
+<meta property="article:modified_time" content="2020-07-01T23:05:30+07:00" />
+<title>How people move around in Nigeria | COVID-19 mobility</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.8b34b0846c7c6544613b2301559d146e1ddebf7ee7068ccc53d2fd0e9b3701b9.css" integrity="sha256-izSwhGx8ZURhOyMBVZ0Ubh3ev37nBozMU9L9Dps3Abk=">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-167958784-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><img src="/dtu.png" alt="Logo" /><span>COVID-19 mobility</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+<p><strong><a href="/">Main Page</a></strong></p>
+</li>
+<li>
+<p><strong>Posts</strong></p>
+<ul>
+<li>
+<p><strong>Kenya</strong>
+<a href="/posts/timeline_kenya/">Timeline</a></p>
+<ul>
+<li><a href="/posts/data_quality_kenya/"><em>Kenya</em>: <br>
+Data quality</a></li>
+<li><a href="/posts/kenya_where_are_people/"><em>Kenya</em>: <br>
+Where are people?</a></li>
+<li><a href="/posts/kenya_how_people_move/"><em>Kenya</em>: <br>
+How people move</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Nigeria</strong>
+<a href="/posts/timeline_nigeria/">Timeline</a></p>
+<ul>
+<li><a href="/posts/data_quality_nigeria/"><em>Nigeria</em>: <br>
+Data quality</a></li>
+<li><a href="/posts/nigeria_where_are_people/"><em>Nigeria</em>: <br>
+Where are people?</a></li>
+<li><a href="/posts/nigeria_how_people_move/"class=active><em>Nigeria</em>: <br>
+How people move</a></li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p><strong>Visualizations</strong></p>
+<ul>
+<li><em>Where people are</em>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="/visualizations/where_people_are_going_out/">Going out</a></li>
+<li><a href="/visualizations/where_people_are_change_in_population_size/">Change in population size</a></li>
+<li><a href="/visualizations/where_people_are_population_concentration/">Population distribution</a></li>
+</ul>
+</li>
+<li><em>How people move</em>
+<ul>
+<li><a href="/visualizations/movement_adm_tile/"><strong>New</strong> Particle city movement</a></li>
+<li><a href="/visualizations/how_people_move_movements_between_tiles/"><strong>New</strong> Tile city movement</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="/visualizations/how_people_move_staying_home/">Staying home</a></li>
+<li><a href="/visualizations/how_people_move_movements_between_municipalities/">Movements between municipalities</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Data</strong></p>
+<ul>
+<li><a href="/data/population_density_maps/">Population Density Maps</a></li>
+<li><a href="/data/movement_maps/">Movement Maps</a>
+<!-- raw HTML omitted --></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>How people move around in Nigeria</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="movements-in-around-in-nigeria"><strong>Movements in around in Nigeria</strong></h1>
+<div style="height:20px"></div>
+<p>Intuitively lockdowns and curfews should have an effect on how people move. In this post the idea is to investigate how people have moved within Lagos and Abuja in Nigeria, as these are the cities where enough data has been collected.</p>
+<p>In order to get a better understanding of the actual movements, the particle city movement visualization can be investigated.</p>
+<p>By looking at this plot, we get an overview of how people move around during the lockdown. In Lagos, when scrolling through all the dates, it looks like there is a tendency of people moving less in the beginning of the lockdown and then starting to move more around in the end. Movements are still observed in the beginning, but the amount of people moving around is often less than the baseline.</p>
+<p><em>Beginning of April, Lagos</em>
+<img src="/lagos_move_1.PNG" alt="img" /></p>
+<p><em>Beginning of May, Lagos</em>
+<img src="/lagos_move_2.PNG" alt="img" /></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>The visualisation of Lagos above also takes into account the movement within Lagos, but also between Lagos and neighbouring areas.</p>
+<p><em>Movement around Lagos from 27/3 to 20/5</em>
+<img src="/tile_lagos_adm.gif" alt="img" />
+As seen from the figure above, showing the movment in the regions around Lagos (Lagos being the city by the sea in the lower left corner), no clear pattern of how people are moving in Lagos appear (figure from <a href="/visualizations/how_people_move_movements_between_municipalities/">Movements between municipalities</a>). This is most likely due to sparsity of movement-data on administaion-level. With Lagos being one of the fastest growing cities in Africa, with a population of around 17.5 million, it deserves a closer look.</p>
+<p>To explore the movement patterns within Lagos and not including the movement to and from the city, we use the visualisation ´Tile city movement´ below. Here each colored tile represent a 3 x 3 km square of Lagos.
+To explore the movement patterns of two biggest cities in Kenya and Nigeria go to the interactive figure here <a href="/visualizations/how_people_move_movements_between_tiles/">Tile city movement</a>, where a detailed description of the figure also can be found here.</p>
+<p><em>Movement within Lagos from 27/3 to 20/5</em>
+<img src="/tile_lagos.gif" alt="img" />
+Here is clearly observed a decrease in percent change. Going from 40-75 % negative percent change, compared to the baseline, in the first month of the period (27/3 to 21/4) , to a sudden drop to 25% negative percent change on the 23/4. Clearly something significant has occured at this point in time to get people to move around within Lagos agian.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

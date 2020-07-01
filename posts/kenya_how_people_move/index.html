@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Movements in Kenya  Intuitively lockdowns and curfews should have an effect on how people move. In this post the idea is to investigate how people have moved within Nairobi and Mombasa in Kenya, as these are the cities where enough data has been collected.
+In order to get a better understanding of the actual movements, the particle city movement visualization can be investigated.
+By looking at this plot, we get an overview of how people move around during the lockdown."><meta property="og:title" content="How people move around in Kenya" />
+<meta property="og:description" content="Movements in Kenya  Intuitively lockdowns and curfews should have an effect on how people move. In this post the idea is to investigate how people have moved within Nairobi and Mombasa in Kenya, as these are the cities where enough data has been collected.
+In order to get a better understanding of the actual movements, the particle city movement visualization can be investigated.
+By looking at this plot, we get an overview of how people move around during the lockdown." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://covid19.compute.dtu.dk/posts/kenya_how_people_move/" />
+<meta property="article:modified_time" content="2020-07-01T17:22:27+07:00" />
+<title>How people move around in Kenya | COVID-19 mobility</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.8b34b0846c7c6544613b2301559d146e1ddebf7ee7068ccc53d2fd0e9b3701b9.css" integrity="sha256-izSwhGx8ZURhOyMBVZ0Ubh3ev37nBozMU9L9Dps3Abk=">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-167958784-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><img src="/dtu.png" alt="Logo" /><span>COVID-19 mobility</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+<p><strong><a href="/">Main Page</a></strong></p>
+</li>
+<li>
+<p><strong>Posts</strong></p>
+<ul>
+<li>
+<p><strong>Kenya</strong>
+<a href="/posts/timeline_kenya/">Timeline</a></p>
+<ul>
+<li><a href="/posts/data_quality_kenya/"><em>Kenya</em>: <br>
+Data quality</a></li>
+<li><a href="/posts/kenya_where_are_people/"><em>Kenya</em>: <br>
+Where are people?</a></li>
+<li><a href="/posts/kenya_how_people_move/"class=active><em>Kenya</em>: <br>
+How people move</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Nigeria</strong>
+<a href="/posts/timeline_nigeria/">Timeline</a></p>
+<ul>
+<li><a href="/posts/data_quality_nigeria/"><em>Nigeria</em>: <br>
+Data quality</a></li>
+<li><a href="/posts/nigeria_where_are_people/"><em>Nigeria</em>: <br>
+Where are people?</a></li>
+<li><a href="/posts/nigeria_how_people_move/"><em>Nigeria</em>: <br>
+How people move</a></li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p><strong>Visualizations</strong></p>
+<ul>
+<li><em>Where people are</em>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="/visualizations/where_people_are_going_out/">Going out</a></li>
+<li><a href="/visualizations/where_people_are_change_in_population_size/">Change in population size</a></li>
+<li><a href="/visualizations/where_people_are_population_concentration/">Population distribution</a></li>
+</ul>
+</li>
+<li><em>How people move</em>
+<ul>
+<li><a href="/visualizations/movement_adm_tile/"><strong>New</strong> Particle city movement</a></li>
+<li><a href="/visualizations/how_people_move_movements_between_tiles/"><strong>New</strong> Tile city movement</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="/visualizations/how_people_move_staying_home/">Staying home</a></li>
+<li><a href="/visualizations/how_people_move_movements_between_municipalities/">Movements between municipalities</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Data</strong></p>
+<ul>
+<li><a href="/data/population_density_maps/">Population Density Maps</a></li>
+<li><a href="/data/movement_maps/">Movement Maps</a>
+<!-- raw HTML omitted --></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>How people move around in Kenya</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="movements-in-kenya"><strong>Movements in Kenya</strong></h1>
+<div style="height:20px"></div>
+<p>Intuitively lockdowns and curfews should have an effect on how people move. In this post the idea is to investigate how people have moved within Nairobi and Mombasa in Kenya, as these are the cities where enough data has been collected.</p>
+<p>In order to get a better understanding of the actual movements, the particle city movement visualization can be investigated.</p>
+<p>By looking at this plot, we get an overview of how people move around during the lockdown. In Nairobi, when scrolling through all the dates, it looks like there is a tendency of people moving less in the beginning of the lockdown and then starting to move more around in the end.</p>
+<div class="book-columns flex flex-wrap">
+  
+  <div class="flex-even markdown-inner">
+    <em>Beginning of April, Nairobi</em>
+<img src="/nairobi_move_1.PNG" alt="img">
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <em>Beginning of May, Nairobi</em>
+<img src="/nairobi_move_2.PNG" alt="img">
+  </div>
+  
+</div>
+
+<p>This can also be seen in the staying home visualization for the Nairobi, where a small decline in the number of people staying at home is observed. Even though, the staying home plot is less granulated than those above, the trend can be observed, where people start to move around more.</p>
+<p><img src="/staying_home_nairobi.PNG" alt="img" /></p>
+<p>In addition to this, it is interesting to observe how people tend to leave their homes over the weekends. This makes sense as in large cities a lot of the workers are probably born in the countryside and then have moved to the city to find work, which means they spend some of their weekends going back to their families.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

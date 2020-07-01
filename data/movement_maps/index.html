@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Movement Maps For understanding How people move we use so-called &ldquo;Movement Maps&rdquo;, which are provided by the Facebook&rsquo;s Data for Good initiative. Specifically, we use a combination of Movement maps at tile level and administrative region level (see Granularity and Further preprocessing).
+Description
+A Movement map seperates the country into different areas. It then reports the number of users that travel between areas, for three eight hour time windows each day."><meta property="og:title" content="Movement Maps" />
+<meta property="og:description" content="Movement Maps For understanding How people move we use so-called &ldquo;Movement Maps&rdquo;, which are provided by the Facebook&rsquo;s Data for Good initiative. Specifically, we use a combination of Movement maps at tile level and administrative region level (see Granularity and Further preprocessing).
+Description
+A Movement map seperates the country into different areas. It then reports the number of users that travel between areas, for three eight hour time windows each day." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://covid19.compute.dtu.dk/data/movement_maps/" />
+<meta property="article:modified_time" content="2020-07-01T14:45:34+07:00" />
+<title>Movement Maps | COVID-19 mobility</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.8b34b0846c7c6544613b2301559d146e1ddebf7ee7068ccc53d2fd0e9b3701b9.css" integrity="sha256-izSwhGx8ZURhOyMBVZ0Ubh3ev37nBozMU9L9Dps3Abk=">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-167958784-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><img src="/dtu.png" alt="Logo" /><span>COVID-19 mobility</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+<p><strong><a href="/">Main Page</a></strong></p>
+</li>
+<li>
+<p><strong>Posts</strong></p>
+<ul>
+<li>
+<p><strong>Kenya</strong>
+<a href="/posts/timeline_kenya/">Timeline</a></p>
+<ul>
+<li><a href="/posts/data_quality_kenya/"><em>Kenya</em>: <br>
+Data quality</a></li>
+<li><a href="/posts/kenya_where_are_people/"><em>Kenya</em>: <br>
+Where are people?</a></li>
+<li><a href="/posts/kenya_how_people_move/"><em>Kenya</em>: <br>
+How people move</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Nigeria</strong>
+<a href="/posts/timeline_nigeria/">Timeline</a></p>
+<ul>
+<li><a href="/posts/data_quality_nigeria/"><em>Nigeria</em>: <br>
+Data quality</a></li>
+<li><a href="/posts/nigeria_where_are_people/"><em>Nigeria</em>: <br>
+Where are people?</a></li>
+<li><a href="/posts/nigeria_how_people_move/"><em>Nigeria</em>: <br>
+How people move</a></li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p><strong>Visualizations</strong></p>
+<ul>
+<li><em>Where people are</em>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="/visualizations/where_people_are_going_out/">Going out</a></li>
+<li><a href="/visualizations/where_people_are_change_in_population_size/">Change in population size</a></li>
+<li><a href="/visualizations/where_people_are_population_concentration/">Population distribution</a></li>
+</ul>
+</li>
+<li><em>How people move</em>
+<ul>
+<li><a href="/visualizations/movement_adm_tile/"><strong>New</strong> Particle city movement</a></li>
+<li><a href="/visualizations/how_people_move_movements_between_tiles/"><strong>New</strong> Tile city movement</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="/visualizations/how_people_move_staying_home/">Staying home</a></li>
+<li><a href="/visualizations/how_people_move_movements_between_municipalities/">Movements between municipalities</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Data</strong></p>
+<ul>
+<li><a href="/data/population_density_maps/">Population Density Maps</a></li>
+<li><a href="/data/movement_maps/"class=active>Movement Maps</a>
+<!-- raw HTML omitted --></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Movement Maps</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="movement-maps">Movement Maps</h1>
+<p>For understanding <em>How people move</em> we use so-called &ldquo;Movement Maps&rdquo;, which are provided by the Facebook&rsquo;s <a href="https://dataforgood.fb.com/">Data for Good</a> initiative. Specifically, we use a combination of Movement maps at tile level and administrative region level (see <em>Granularity</em> and <em>Further preprocessing</em>).</p>
+<p><strong>Description</strong></p>
+<p>A Movement map seperates the country into different areas. It then reports the number of users that travel between areas, for three eight hour time windows each day. Specifically, a movement count between two regions, for a given time window, represents the number of people that, in the previous time window, spent most of their time in one region and in this time window spent most of their time on the other region.</p>
+<p><strong>Example</strong></p>
+<p>For example, on the 6th of April 2020 at hour 03-11 in Kenya, we observe 30 active Facebook users move from the Gucha district to the Nyamira district.
+This means that 30 people spent most of their time during the hour 19–03 time window inside on of these municipalities, and then during 03–11 time window spent most of their time in the other one. Non-movement is recorded in the same way, that is for each region Facebook also counts the number of users that do not move. Because data is aggregated like this, there is no information left to identify individuals and privacy is thus preserved (see <em>Privacy and data loss</em> below).</p>
+<p><strong>Time</strong></p>
+<p>The earliest data made available starts april. For each day, three data files are provided; one for each of the time windows 0–8, 8–16, and 16–24 GMT. In Kenya time windows in local time are 03–11, 11–19 and 19–03. In Nigeria time windows in local time are 01-09, 9-17 and 17-01.</p>
+<p><em>Tile movements in Nairobi during working hours:</em>
+<img src="/example_movement_nairobi.PNG" alt="img" /></p>
+<p><strong>Granularity</strong></p>
+<p>Movement maps are delivered at two levels of granularity. Level (1) describes movement counts at the lowest <em>administrative</em> level, which for Kenya and Nigeria are counties. Level (2) describes movement counts between geographical <em>tiles</em> up to 3 km by 3 km in size. Note that this is twice the width and length (four times the area) of tiles in the Population density maps. The administrative level maps are aggregates of the tile level maps, but they differ in a systematic way due to privacy preservation (see <em>Privacy and data loss</em> below).</p>
+<p><strong>Baseline</strong></p>
+<p>For each movement count (whether it is for a tile or an administrative region) a corresponding <em>baseline</em> count is provided. The baseline is the average count for the same day of the week and time window over the 45 days prior to data generation. It is important to note, that since data generation starts in april but lockdown started already in March for both Kenya and Nigeria, around two weeks of the 45 baseline days span into the lockdown period. Therefore, by comparing to this baseline <em>reported effects may be as much as 33% smaller</em> than those we might have obtained if comparing to a baseline that did not include lockdown.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><strong>Privacy and data loss</strong></p>
+<p>Mobility counts are made unavailale between tiles/municipalties at times when they occur less than 10 times. This causes a systematic underreporting of mobility from rural areas where there is a lower density of people and more possible destinations to move between. This is especially a problem in the tile-level maps. For this reason, long-range trips are often lost in tile-level maps.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
